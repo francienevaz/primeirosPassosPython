@@ -12,3 +12,9 @@ Trabalhando com análise de dados usando Python - Ciência de Dados
 . Coleção - set, fronzenset;
 . Booleano - bool;
 . Binário - bytes, bytearray, memoryview;
+
+## Boas práticas
+
+. O padrão de nomes deve ser snake case. exemplo: taxa_de_juros
+. Escolher nomes sugestivos.
+. Nome de constantes todo em maiúsculo.
