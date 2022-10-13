@@ -1,3 +1,4 @@
+#  for else
 texto = input("Escreva algo:")
 VOGAIS = "AEIOU"
 
