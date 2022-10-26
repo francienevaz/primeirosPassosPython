@@ -9,3 +9,14 @@ linguagem = "Javascript"
 
 # Método format
 print("Olá, me chamo {}. Eu tenho {} anos de idade, trabalho como {} e estou matriculado no curso de {}" .format(nome, idade, profissao, linguagem))
+
+# f-string // é um método mais fácil de trabalhar
+print(f"Olá, eu sou a {nome}. Tenho  {idade} anos, e estou estudando {linguagem}, para me tornar {profissao} XD!")
+
+# Formatar strings com f-string
+# Veja que o ponto antes do 2 significa o espaço antes do número que será mostrado, no segundo exemplo o 10 antes do ponto representa a quantidade de espaços antes do número. E por fim o 2f é a quantidade de casas decimais depois da vírgula
+
+PI = 3.14159
+
+print(f"Valor de PI é : {PI:.2f}")
+print(f"Valor de PI é : {PI:10.2f}")
